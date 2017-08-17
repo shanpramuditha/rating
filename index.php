@@ -41,10 +41,10 @@
         $maxval = 0;
         $average = 0;
     }
-    var_dump($average);
-    var_dump($average*20);
-    var_dump($maxval);
-    var_dump($total);
+//    var_dump($average);
+//    var_dump($average*20);
+//    var_dump($maxval);
+//    var_dump($total);
 
     ?>
 
