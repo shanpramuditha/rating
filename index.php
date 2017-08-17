@@ -18,6 +18,18 @@
 <!--        <script src="path/to/js/locales/<lang>.js"></script>-->
     </head>
     <body>
+
+    <div itemscope itemtype="http://schema.org/Book" style="display: none">
+        <h2 itemprop="name"> Super Book </h2>
+        <div itemprop="description">Ultra interesting. Super impressive.</div>
+        <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+            <div>Book rating:
+                <span itemprop="ratingValue">88</span> out of
+                <span itemprop="bestRating">100</span> with
+                <span itemprop="ratingCount">20</span> ratings
+            </div>
+        </div>
+    </div>
     <input id="input-id" type="text" class="rating" data-size="sm" >
 
 
